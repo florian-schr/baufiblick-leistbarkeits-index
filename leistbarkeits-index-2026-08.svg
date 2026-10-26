@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 574" width="100%" role="img" aria-labelledby="chTitle chDesc" font-family="Inter, ui-sans-serif, system-ui, sans-serif">
+<title id="chTitle">Finanzierbarer Kaufpreis je Bundesland, Ausgabe 08/2026</title>
+<desc id="chDesc">Gestapeltes Balkendiagramm über 16 Bundesländer. Der dunkle Abschnitt zeigt den tatsächlich finanzierbaren Kaufpreis, der helle Abschnitt den Betrag, der bei einem Grunderwerbsteuersatz von 3,5 Prozent zusätzlich möglich wäre. Die vollständigen Werte stehen in der Tabelle über dem Diagramm.</desc>
+<rect width="900" height="574" fill="#ffffff"/>
+<text x="0" y="22" font-size="15" font-weight="700" fill="#12231f">Finanzierbarer Kaufpreis je Bundesland</text>
+<text x="0" y="41" font-size="12" fill="#52645e">Zweipersonenhaushalt, verfügbares Einkommen 2024, 3,7 % Sollzins, 2 % Tilgung · BaufiBlick Leistbarkeits-Index 08/2026</text>
+<rect x="0" y="55" width="11" height="11" rx="2" fill="#007a5a"/>
+<text x="18" y="65" font-size="12" fill="#52645e">tatsächlich finanzierbar</text>
+<rect x="182" y="55" width="11" height="11" rx="2" fill="#cc6d1f"/>
+<text x="200" y="65" font-size="12" fill="#52645e">zusätzlich möglich bei 3,5 % Grunderwerbsteuer</text>
+<line x1="208.0" y1="88" x2="208.0" y2="532" stroke="#dbe7e1" stroke-width="1"/>
+<text x="208.0" y="548" font-size="11" fill="#52645e" text-anchor="middle">0</text>
+<line x1="358.0" y1="88" x2="358.0" y2="532" stroke="#dbe7e1" stroke-width="1"/>
+<text x="358.0" y="548" font-size="11" fill="#52645e" text-anchor="middle">80.000</text>
+<line x1="508.0" y1="88" x2="508.0" y2="532" stroke="#dbe7e1" stroke-width="1"/>
+<text x="508.0" y="548" font-size="11" fill="#52645e" text-anchor="middle">160.000</text>
+<line x1="658.0" y1="88" x2="658.0" y2="532" stroke="#dbe7e1" stroke-width="1"/>
+<text x="658.0" y="548" font-size="11" fill="#52645e" text-anchor="middle">240.000</text>
+<line x1="808.0" y1="88" x2="808.0" y2="532" stroke="#dbe7e1" stroke-width="1"/>
+<text x="808.0" y="548" font-size="11" fill="#52645e" text-anchor="middle">320.000</text>
+<path d="M208.0 96 H772.0 a4 4 0 0 1 4 4 V110 a4 4 0 0 1 -4 4 H208.0 Z" fill="#007a5a"/>
+<text x="198" y="109" font-size="12" fill="#12231f" text-anchor="end">Bayern</text>
+<text x="767.0" y="109" font-size="12" font-weight="700" fill="#ffffff" text-anchor="end">302.918 €</text>
+<rect x="208.0" y="123" width="528.9" height="18" fill="#007a5a"/>
+<path d="M738.9 123 H741.8 a4 4 0 0 1 4 4 V137 a4 4 0 0 1 -4 4 H738.9 Z" fill="#cc6d1f"/>
+<text x="198" y="136" font-size="12" fill="#12231f" text-anchor="end">Baden-Württemberg</text>
+<text x="727.9" y="136" font-size="12" font-weight="700" fill="#ffffff" text-anchor="end">282.054 €</text>
+<text x="752.8" y="136" font-size="11" fill="#52645e">+4.750 €</text>
+<rect x="208.0" y="150" width="525.1" height="18" fill="#007a5a"/>
+<path d="M735.1 150 H740.9 a4 4 0 0 1 4 4 V164 a4 4 0 0 1 -4 4 H735.1 Z" fill="#cc6d1f"/>
+<text x="198" y="163" font-size="12" fill="#12231f" text-anchor="end">Hamburg</text>
+<text x="724.1" y="163" font-size="12" font-weight="700" fill="#ffffff" text-anchor="end">280.032 €</text>
+<text x="751.9" y="163" font-size="11" fill="#52645e">+6.289 €</text>
+<rect x="208.0" y="177" width="515.7" height="18" fill="#007a5a"/>
+<path d="M725.7 177 H734.1 a4 4 0 0 1 4 4 V191 a4 4 0 0 1 -4 4 H725.7 Z" fill="#cc6d1f"/>
+<text x="198" y="190" font-size="12" fill="#12231f" text-anchor="end">Hessen</text>
+<text x="714.7" y="190" font-size="12" font-weight="700" fill="#ffffff" text-anchor="end">275.020 €</text>
+<text x="745.1" y="190" font-size="11" fill="#52645e">+7.719 €</text>
+<rect x="208.0" y="204" width="492.2" height="18" fill="#007a5a"/>
+<path d="M702.2 204 H704.5 a4 4 0 0 1 4 4 V218 a4 4 0 0 1 -4 4 H702.2 Z" fill="#cc6d1f"/>
+<text x="198" y="217" font-size="12" fill="#12231f" text-anchor="end">Rheinland-Pfalz</text>
+<text x="691.2" y="217" font-size="12" font-weight="700" fill="#ffffff" text-anchor="end">262.504 €</text>
+<text x="715.5" y="217" font-size="11" fill="#52645e">+4.420 €</text>
+<rect x="208.0" y="231" width="477.0" height="18" fill="#007a5a"/>
+<path d="M687.0 231 H697.0 a4 4 0 0 1 4 4 V245 a4 4 0 0 1 -4 4 H687.0 Z" fill="#cc6d1f"/>
+<text x="198" y="244" font-size="12" fill="#12231f" text-anchor="end">Schleswig-Holstein</text>
+<text x="676.0" y="244" font-size="12" font-weight="700" fill="#ffffff" text-anchor="end">254.384 €</text>
+<text x="708.0" y="244" font-size="11" fill="#52645e">+8.569 €</text>
+<rect x="208.0" y="258" width="456.2" height="18" fill="#007a5a"/>
+<path d="M666.2 258 H667.9 a4 4 0 0 1 4 4 V272 a4 4 0 0 1 -4 4 H666.2 Z" fill="#cc6d1f"/>
+<text x="198" y="271" font-size="12" fill="#12231f" text-anchor="end">Niedersachsen</text>
+<text x="655.2" y="271" font-size="12" font-weight="700" fill="#ffffff" text-anchor="end">243.310 €</text>
+<text x="678.9" y="271" font-size="11" fill="#52645e">+4.098 €</text>
+<rect x="208.0" y="285" width="451.2" height="18" fill="#007a5a"/>
+<path d="M661.2 285 H670.4 a4 4 0 0 1 4 4 V299 a4 4 0 0 1 -4 4 H661.2 Z" fill="#cc6d1f"/>
+<text x="198" y="298" font-size="12" fill="#12231f" text-anchor="end">Nordrhein-Westfalen</text>
+<text x="650.2" y="298" font-size="12" font-weight="700" fill="#ffffff" text-anchor="end">240.628 €</text>
+<text x="681.4" y="298" font-size="11" fill="#52645e">+8.104 €</text>
+<rect x="208.0" y="312" width="411.6" height="18" fill="#007a5a"/>
+<path d="M621.6 312 H627.1 a4 4 0 0 1 4 4 V326 a4 4 0 0 1 -4 4 H621.6 Z" fill="#cc6d1f"/>
+<text x="198" y="325" font-size="12" fill="#12231f" text-anchor="end">Berlin</text>
+<text x="610.6" y="325" font-size="12" font-weight="700" fill="#ffffff" text-anchor="end">219.498 €</text>
+<text x="638.1" y="325" font-size="11" fill="#52645e">+6.162 €</text>
+<rect x="208.0" y="339" width="410.3" height="18" fill="#007a5a"/>
+<path d="M620.3 339 H628.1 a4 4 0 0 1 4 4 V353 a4 4 0 0 1 -4 4 H620.3 Z" fill="#cc6d1f"/>
+<text x="198" y="352" font-size="12" fill="#12231f" text-anchor="end">Brandenburg</text>
+<text x="609.3" y="352" font-size="12" font-weight="700" fill="#ffffff" text-anchor="end">218.812 €</text>
+<text x="639.1" y="352" font-size="11" fill="#52645e">+7.371 €</text>
+<rect x="208.0" y="366" width="397.5" height="18" fill="#007a5a"/>
+<path d="M607.5 366 H612.7 a4 4 0 0 1 4 4 V380 a4 4 0 0 1 -4 4 H607.5 Z" fill="#cc6d1f"/>
+<text x="198" y="379" font-size="12" fill="#12231f" text-anchor="end">Mecklenburg-Vorpommern</text>
+<text x="596.5" y="379" font-size="12" font-weight="700" fill="#ffffff" text-anchor="end">212.007 €</text>
+<text x="623.7" y="379" font-size="11" fill="#52645e">+5.951 €</text>
+<rect x="208.0" y="393" width="397.4" height="18" fill="#007a5a"/>
+<path d="M607.4 393 H610.3 a4 4 0 0 1 4 4 V407 a4 4 0 0 1 -4 4 H607.4 Z" fill="#cc6d1f"/>
+<text x="198" y="406" font-size="12" fill="#12231f" text-anchor="end">Sachsen</text>
+<text x="596.4" y="406" font-size="12" font-weight="700" fill="#ffffff" text-anchor="end">211.923 €</text>
+<text x="621.3" y="406" font-size="11" fill="#52645e">+4.758 €</text>
+<rect x="208.0" y="420" width="392.7" height="18" fill="#007a5a"/>
+<path d="M602.7 420 H603.3 a4 4 0 0 1 4 4 V434 a4 4 0 0 1 -4 4 H602.7 Z" fill="#cc6d1f"/>
+<text x="198" y="433" font-size="12" fill="#12231f" text-anchor="end">Thüringen</text>
+<text x="591.7" y="433" font-size="12" font-weight="700" fill="#ffffff" text-anchor="end">209.438 €</text>
+<text x="614.3" y="433" font-size="11" fill="#52645e">+3.527 €</text>
+<rect x="208.0" y="447" width="388.3" height="18" fill="#007a5a"/>
+<path d="M598.3 447 H601.0 a4 4 0 0 1 4 4 V461 a4 4 0 0 1 -4 4 H598.3 Z" fill="#cc6d1f"/>
+<text x="198" y="460" font-size="12" fill="#12231f" text-anchor="end">Bremen</text>
+<text x="587.3" y="460" font-size="12" font-weight="700" fill="#ffffff" text-anchor="end">207.083 €</text>
+<text x="612.0" y="460" font-size="11" fill="#52645e">+4.649 €</text>
+<rect x="208.0" y="474" width="387.6" height="18" fill="#007a5a"/>
+<path d="M597.6 474 H604.7 a4 4 0 0 1 4 4 V488 a4 4 0 0 1 -4 4 H597.6 Z" fill="#cc6d1f"/>
+<text x="198" y="487" font-size="12" fill="#12231f" text-anchor="end">Saarland</text>
+<text x="586.6" y="487" font-size="12" font-weight="700" fill="#ffffff" text-anchor="end">206.741 €</text>
+<text x="615.7" y="487" font-size="11" fill="#52645e">+6.964 €</text>
+<rect x="208.0" y="501" width="386.7" height="18" fill="#007a5a"/>
+<path d="M596.7 501 H597.2 a4 4 0 0 1 4 4 V515 a4 4 0 0 1 -4 4 H596.7 Z" fill="#cc6d1f"/>
+<text x="198" y="514" font-size="12" fill="#12231f" text-anchor="end">Sachsen-Anhalt</text>
+<text x="585.7" y="514" font-size="12" font-weight="700" fill="#ffffff" text-anchor="end">206.231 €</text>
+<text x="608.2" y="514" font-size="11" fill="#52645e">+3.473 €</text>
+<line x1="208" y1="88" x2="208" y2="532" stroke="#52645e" stroke-width="1"/>
+<text x="0" y="570" font-size="10.5" fill="#52645e">Quellen: Arbeitskreis VGR der Länder (2024) · Destatis (31.12.2024) · Deutsche Bundesbank MFI-Zinsstatistik · CC BY 4.0 baufiblick.de</text>
+</svg>
