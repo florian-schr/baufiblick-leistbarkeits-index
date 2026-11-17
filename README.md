@@ -15,16 +15,27 @@ Modellhaft finanzierbarer Immobilien-Kaufpreis eines Zweipersonenhaushalts in de
 
 | Datei | Ausgabe | Modellzins (Sollzins) | Bundesbank-Referenz (5–10 J.) | Kaufpreis Bundesschnitt |
 |---|---|---|---|---|
-| `baufiblick-leistbarkeits-index-2026-10.csv` | `2026-10` | 3,8 % p. a. | 3,81 % (August 2026) | 234.560 € (−4.976 € ggü. 08/2026) |
-| `baufiblick-leistbarkeits-index-2026-08.csv` | `2026-08` | 3,7 % p. a. | 3,74 % (Mai/Juni 2026) | 239.536 € |
+| `baufiblick-leistbarkeits-index-2026-10.csv` | `2026-10` | 3,8 % p. a. | 3,81 % (August 2026) | 235.407 € (−4.130 € ggü. 08/2026) |
+| `baufiblick-leistbarkeits-index-2026-08.csv` | `2026-08` | 3,7 % p. a. | 3,74 % (Mai/Juni 2026) | 239.537 € |
 
 ## Methodik & Modellannahmen
 
-- **Haushalt:** 2 Personen mit dem durchschnittlichen verfügbaren Einkommen des jeweiligen Bundeslandes (`Einkommen_Kopf × 2`).
-- **Tragbare Gesamtbelastung:** 30 % des verfügbaren Haushaltsnettoeinkommens.
-- **Bewirtschaftungspauschale:** 4,00 €/m² für 100 m² Wohnfläche (= 400 €/Monat für Betriebskosten + Instandhaltungsrücklage) werden **vor** der Kreditrate abgezogen.
-- **Annuität:** 3,8 % Sollzins p. a. (Ausgabe 10/2026) bzw. 3,7 % Sollzins p. a. (Ausgabe 08/2026) + 2,0 % anfängliche Tilgung.
-- **Eigenkapital & Kaufnebenkosten:** 40.000 € Eigenkapital; davon werden Grunderwerbsteuer (länderspezifisch 3,5 % bis 6,5 %) und Notar-/Grundbuchkosten (2,0 % Modellwert) gedeckt, ohne Maklerprovision.
+Die Dateien sind byte-gleich mit den CSV-Downloads auf baufiblick.de (Semikolon als Trennzeichen, UTF-8 mit BOM). Der „Bundesschnitt" ist das ungewichtete Mittel der 16 Länderwerte.
+
+```
+Einkommen je Kopf   = Verfügbares Einkommen der privaten Haushalte 2024 (VGRdL, Berechnungsstand August 2025)
+                      ÷ Bevölkerung am 31.12.2024 (Destatis, Fortschreibung auf Grundlage des Zensus 2022)
+Haushaltseinkommen  = Einkommen je Kopf ÷ 12 × 2                      (Zweipersonenhaushalt)
+Wohnfolgekosten     = 130 m² × 5,00 €                                 (Betrieb 3,50 € + Rücklage 1,50 €) = 650 €
+Tragbare Rate       = Haushaltseinkommen × 35 % − Wohnfolgekosten
+Darlehen            = Rate × 12 ÷ (Sollzins + 2 % Tilgung)            (Sollzins 3,8 % in 10/2026, 3,7 % in 08/2026)
+Nebenkostensatz     = Grunderwerbsteuer des Landes + 2,0 % Notar und Grundbuch + 3,57 % Makler
+Kaufpreis           = Darlehen ÷ (0,8 + Nebenkostensatz)              (20 % Eigenkapital als Anteil am Kaufpreis)
+```
+
+Notar und Grundbuch (2,0 %) und Makler (3,57 %) sind Modellannahmen, keine Gebühren. Alle Werte lassen sich mit diesen Formeln aus den amtlichen Ausgangsdaten nachrechnen.
+
+**Korrektur 17.11.2026:** Die am 26.10.2026 veröffentlichte Fassung dieses Pakets enthielt andere Einkommenswerte (14 von 16 Länder wichen von der amtlichen Rechnung ab) und ein anderes Modell (festes Eigenkapital von 40.000 €, 30 % Belastungsquote, ohne Makler). Sie passte nicht zu den Zahlen auf baufiblick.de. Maßgeblich sind die Dateien in diesem Stand.
 
 ## Lizenz & Zitierweise
 

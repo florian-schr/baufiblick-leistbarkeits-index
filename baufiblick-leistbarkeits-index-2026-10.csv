@@ -1,17 +1,17 @@
-Rang,Bundesland,Kuerzel,Einkommen_Kopf_EUR,Haushalt_Netto_Monat_EUR,Max_Kreditrate_Monat_EUR,Max_Darlehen_EUR,Grunderwerbsteuer_Prozent,Nebenkosten_Prozent,Max_Kaufpreis_EUR,Zins_Annahme_Prozent,Tilgung_Annahme_Prozent,Eigenkapital_Annahme_EUR,Ausgabe
-1,Bayern,BY,33407,5568,1270,262831,3.5,5.5,287044,3.8,2.0,40000,2026-10
-2,Hamburg,HH,32944,5491,1247,258041,5.5,7.5,277248,3.8,2.0,40000,2026-10
-3,Baden-Württemberg,BW,32297,5383,1215,251348,5.0,7.0,272288,3.8,2.0,40000,2026-10
-4,Schleswig-Holstein,SH,29771,4962,1089,225217,6.5,8.5,244440,3.8,2.0,40000,2026-10
-5,Hessen,HE,29622,4937,1081,223676,6.0,8.0,244144,3.8,2.0,40000,2026-10
-6,Rheinland-Pfalz,RP,28971,4828,1049,216941,5.0,7.0,240132,3.8,2.0,40000,2026-10
-7,Nordrhein-Westfalen,NW,28529,4755,1026,212369,6.5,8.5,232598,3.8,2.0,40000,2026-10
-8,Niedersachsen,NI,28162,4694,1008,208572,5.0,7.0,232311,3.8,2.0,40000,2026-10
-9,Berlin,BE,27961,4660,998,206493,6.0,8.0,228234,3.8,2.0,40000,2026-10
-10,Brandenburg,BB,27548,4591,977,202221,6.5,8.5,223245,3.8,2.0,40000,2026-10
-11,Sachsen,SN,26858,4476,943,195083,5.5,7.5,218682,3.8,2.0,40000,2026-10
-12,Saarland,SL,26825,4471,941,194741,6.5,8.5,216352,3.8,2.0,40000,2026-10
-13,Thüringen,TH,25885,4314,894,185017,5.0,7.0,210296,3.8,2.0,40000,2026-10
-14,Bremen,HB,25943,4324,897,185617,5.5,7.5,209877,3.8,2.0,40000,2026-10
-15,Sachsen-Anhalt,ST,25390,4232,870,179897,5.0,7.0,205511,3.8,2.0,40000,2026-10
-16,Mecklenburg-Vorpommern,MV,25293,4216,865,178893,6.0,8.0,202679,3.8,2.0,40000,2026-10
+﻿Bundesland;Verfuegbares Einkommen je Kopf 2024 EUR;Haushaltseinkommen Monat EUR;Tragbare Rate EUR;Darlehen EUR;Grunderwerbsteuer Prozent;Nebenkostensatz Prozent;Finanzierbarer Kaufpreis EUR;Kaufpreis bei 3_5 Prozent Grunderwerbsteuer EUR;Differenz EUR;Veraenderung ggue 2026-08 EUR;Ausgabe;Stichtag;Quelle;Lizenz
+Bayern;33113;5519;1282;265157;3,5;9,07;297695;297695;0;-5223;2026-10;2026-10-26;https://baufiblick.de/leistbarkeits-index/;CC BY 4.0
+Baden-Württemberg;31944;5324;1213;251048;5;10,57;277187;281855;4668;-4863;2026-10;2026-10-26;https://baufiblick.de/leistbarkeits-index/;CC BY 4.0
+Hamburg;31909;5318;1211;250626;5,5;11,07;275201;281381;6180;-4828;2026-10;2026-10-26;https://baufiblick.de/leistbarkeits-index/;CC BY 4.0
+Hessen;31650;5275;1196;247500;6;11,57;270285;277871;7586;-4742;2026-10;2026-10-26;https://baufiblick.de/leistbarkeits-index/;CC BY 4.0
+Rheinland-Pfalz;30502;5084;1129;233645;5;10,57;257972;262316;4344;-4525;2026-10;2026-10-26;https://baufiblick.de/leistbarkeits-index/;CC BY 4.0
+Schleswig-Holstein;30214;5036;1112;230169;6,5;12,07;249993;258414;8421;-4386;2026-10;2026-10-26;https://baufiblick.de/leistbarkeits-index/;CC BY 4.0
+Niedersachsen;29087;4848;1047;216567;5;10,57;239116;243143;4027;-4195;2026-10;2026-10-26;https://baufiblick.de/leistbarkeits-index/;CC BY 4.0
+Nordrhein-Westfalen;29183;4864;1052;217726;6,5;12,07;236479;244444;7965;-4148;2026-10;2026-10-26;https://baufiblick.de/leistbarkeits-index/;CC BY 4.0
+Berlin;27510;4585;955;197534;6;11,57;215720;221774;6054;-3784;2026-10;2026-10-26;https://baufiblick.de/leistbarkeits-index/;CC BY 4.0
+Brandenburg;27548;4591;957;197993;6,5;12,07;215046;222289;7243;-3773;2026-10;2026-10-26;https://baufiblick.de/leistbarkeits-index/;CC BY 4.0
+Mecklenburg-Vorpommern;26951;4492;922;190788;6;11,57;208352;214200;5848;-3655;2026-10;2026-10-26;https://baufiblick.de/leistbarkeits-index/;CC BY 4.0
+Sachsen;26858;4476;917;189666;5,5;11,07;208263;212940;4677;-3654;2026-10;2026-10-26;https://baufiblick.de/leistbarkeits-index/;CC BY 4.0
+Thüringen;26589;4432;901;186419;5;10,57;205829;209295;3466;-3611;2026-10;2026-10-26;https://baufiblick.de/leistbarkeits-index/;CC BY 4.0
+Bremen;26500;4417;896;185345;5,5;11,07;203519;208089;4570;-3571;2026-10;2026-10-26;https://baufiblick.de/leistbarkeits-index/;CC BY 4.0
+Saarland;26643;4440;904;187071;6,5;12,07;203183;210027;6844;-3565;2026-10;2026-10-26;https://baufiblick.de/leistbarkeits-index/;CC BY 4.0
+Sachsen-Anhalt;26352;4392;887;183559;5;10,57;202670;206084;3414;-3556;2026-10;2026-10-26;https://baufiblick.de/leistbarkeits-index/;CC BY 4.0

@@ -3,7 +3,7 @@
   "title": "BaufiBlick-Leistbarkeits-Index: Modellhaft finanzierbare Immobilien-Kaufpreise nach Bundesland",
   "description": "Zeitreihe des modellhaft finanzierbaren Immobilien-Kaufpreises eines Zweipersonenhaushalts in den 16 deutschen Bundesländern auf Basis von VGRdL-Haushaltseinkommen, Bundesbank-MFI-Zinsstatistik und Grunderwerbsteuersätzen.",
   "homepage": "https://baufiblick.de/leistbarkeits-index/",
-  "version": "2026.10",
+  "version": "2026.10.1",
   "licenses": [
     {
       "name": "CC-BY-4.0",
@@ -25,14 +25,22 @@
       "path": "baufiblick-leistbarkeits-index-2026-10.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "encoding": "utf-8"
+      "encoding": "utf-8-sig",
+      "dialect": {
+        "delimiter": ";",
+        "header": true
+      }
     },
     {
       "name": "leistbarkeits-index-2026-08",
       "path": "baufiblick-leistbarkeits-index-2026-08.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "encoding": "utf-8"
+      "encoding": "utf-8-sig",
+      "dialect": {
+        "delimiter": ";",
+        "header": true
+      }
     }
   ]
 }
